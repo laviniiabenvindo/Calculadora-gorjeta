@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <div class="conteiner">
+    <img src="./images/logo.svg" alt="">
+    <aside class="boxConteiner">
+      <section class="box1">
+        <article class="valorCampo">
+          <p>Bill</p>
+          <input type="number"  id="campo" placeholder="0">
+        </article>
+        <article class="numbers">
+          <p>Select Tip %</p>
+          <aside class="buttons">
+            <span>
+              <button id="5" class="num">5%</button>
+              <button id="10" class="num">10%</button>
+              <button id="15" class="num">15%</button>
+            </span>
+            <span>
+              <button id="25" class="num">25%</button>
+              <button id="50" class="num">50%</button>
+              <button class="custom">Custom</button>
+            </span>
+          </aside>
+        </article>
+        <aside class="numPeople">
+          <p>Number of People</p>
+          <input type="number" id="numPeople" placeholder="0">
+        </aside>
+      </section>
+      <section class="box2">
+        <aside class="subBox">
+          <span>
+            <p class="title">Tip Amount</p>
+            <p class="subTitle">/ person</p>
+          </span>
+          <span id="outputValor">$0.00</span>
+        </aside>
+        <aside class="subBox">
+          <span>
+            <p class="title">Total</p>
+            <p class="subTitle">/ person</p>
+          </span>
+          <span id="outputPessoas">$0.00</span>
+        </aside>
+        <button id="btn">Reset</button>
+      </section>
+    </aside>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Lavinia Benvindo</a>.
+    </div>
+  </div>  
+  <script src="index.js"></script>
+</body>
+</html>
